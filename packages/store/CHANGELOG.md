@@ -1,5 +1,11 @@
 # @assistant-ui/store
 
+## 0.3.10
+
+### Patch Changes
+
+- [#5831](https://github.com/assistant-ui/assistant-ui/pull/5831) [`2b0fec7`](https://github.com/assistant-ui/assistant-ui/commit/2b0fec76d8abff2b013aa05eb2a5d62545325da2) - feat: `aui.optional.<scope>` resolves an unavailable scope to `undefined` instead of a throwing accessor, mirroring `s.optional` on the state side; the documented availability check moves off `source != null` ([@okisdev](https://github.com/okisdev))
+
 ## 0.3.9
 
 ### Patch Changes

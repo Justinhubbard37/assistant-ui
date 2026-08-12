@@ -1,5 +1,12 @@
 # @assistant-ui/react-o11y
 
+## 0.0.40
+
+### Patch Changes
+
+- Updated dependencies [[`2b0fec7`](https://github.com/assistant-ui/assistant-ui/commit/2b0fec76d8abff2b013aa05eb2a5d62545325da2)]:
+  - @assistant-ui/store@0.3.10
+
 ## 0.0.39
 
 ### Patch Changes
