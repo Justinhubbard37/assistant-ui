@@ -1,5 +1,11 @@
 # @assistant-ui/react-ink-markdown
 
+## 0.0.55
+
+### Patch Changes
+
+- [#10585](https://github.com/assistant-ui/assistant-ui/pull/10585) [`a47ab10`](https://github.com/assistant-ui/assistant-ui/commit/a47ab10321e5e51f6278cb6158f68d6f72aa9ed4) - `MarkdownText` only emits OSC 8 hyperlinks for absolute http and https URLs, and writes the normalized URL into the sequence. If a message has a link with any other scheme, or a relative link, the message renders as with hyperlinks off, so every link shows its destination as text. ([@Yonom](https://github.com/Yonom))
+
 ## 0.0.54
 
 ### Patch Changes
